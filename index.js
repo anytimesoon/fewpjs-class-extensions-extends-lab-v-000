@@ -10,7 +10,7 @@ class Polygon {
   }
   
   get perimeter(){
-    data.reduce((a, b) => {
+    self.sidesArr.reduce((a, b) => {
       return a + b;
     });
   }
