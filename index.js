@@ -6,7 +6,7 @@ class Polygon {
   }
   
   get countSides(){
-    sidesArr.length;
+    self.sidesArr.length;
   }
   
   get perimeter(){
