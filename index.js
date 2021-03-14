@@ -6,11 +6,11 @@ class Polygon {
   }
   
   get countSides(){
-    self.sidesArr.length() + 1;
+    sidesArr.length() + 1;
   }
   
   get perimeter(){
-    self.sidesArr.reduce((a, b) => {
+    sidesArr.reduce((a, b) => {
       return a + b;
     });
   }
