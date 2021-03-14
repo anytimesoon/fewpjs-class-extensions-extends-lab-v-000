@@ -9,11 +9,11 @@ class Polygon {
     this.sidesArr.length;
   }
   
-  // get perimeter(){
-  //   self.sidesArr.reduce((a, b) => {
-  //     return a + b;
-  //   });
-  // }
+  get perimeter(){
+    self.sidesArr.reduce((a, b) => {
+      return a + b;
+    });
+  }
   
 }
 
