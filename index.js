@@ -17,3 +17,8 @@ class Polygon {
   
 }
 
+class Triangle {
+  constructor(){
+    
+  }
+}
