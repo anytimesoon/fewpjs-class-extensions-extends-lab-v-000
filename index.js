@@ -2,6 +2,6 @@
 
 class Polygon {
   constructor(sidesArr){
-    this.sidesArr = sidesArr'
+    this.sidesArr = sidesArr;
   }
 }
