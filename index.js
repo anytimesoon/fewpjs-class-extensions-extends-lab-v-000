@@ -7,11 +7,11 @@ class Polygon {
   
   get countSides(){
     debugger;
-    this.sidesArr.length;
+    return this.sidesArr.length;
   }
   
   get perimeter(){
-    this.sidesArr.reduce((a, b) => {
+    return this.sidesArr.reduce((a, b) => {
       return a + b;
     });
   }
