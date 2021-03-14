@@ -6,6 +6,7 @@ class Polygon {
   }
   
   get countSides(){
+    debugger;
     this.sidesArr.length;
   }
   
