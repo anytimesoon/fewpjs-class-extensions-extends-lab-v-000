@@ -9,6 +9,10 @@ class Polygon {
     this.sidesArr.length;
   }
   
-  
+  get perimeter(){
+    data.reduce((a, b) => {
+      return a + b;
+    });
+  }
   
 }
