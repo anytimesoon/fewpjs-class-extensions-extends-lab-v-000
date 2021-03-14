@@ -5,5 +5,10 @@ class Polygon {
     this.sidesArr = sidesArr;
   }
   
-  get countSides
+  get countSides(){
+    this.sidesArr.length;
+  }
+  
+  
+  
 }
