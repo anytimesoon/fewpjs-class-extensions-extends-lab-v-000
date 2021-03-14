@@ -1,5 +1,5 @@
 // Your code here
 
-class Polygon(sidesArr) {
-  constructor
+class Polygon {
+  constructor(sidesArr)
 }
